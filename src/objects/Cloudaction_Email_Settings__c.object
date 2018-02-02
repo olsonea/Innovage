@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>This custom setting is used to store data related to email templates. CSS Styles are stored here, and can be managed system wide through the custom settings. The Salesforce Domain and Reply Address are also stored here. These will eliminate promotion errors and the need to update URLs in email templates after promotion from a sandbox to production org.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Reply_Address__c</fullName>
+        <description>Stores the email address used to send inbound emails to Salesforce.</description>
+        <externalId>false</externalId>
+        <label>Reply Address</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Salesforce_Domain__c</fullName>
+        <description>Stores the Salesforce Domain for use in record links.</description>
+        <externalId>false</externalId>
+        <label>Salesforce Domain</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Style_BODY__c</fullName>
+        <description>This field is used to store the default css style for BODY elements.</description>
+        <externalId>false</externalId>
+        <label>Style BODY</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Style_PRE__c</fullName>
+        <description>This field is used to store the default css style for PRE elements.</description>
+        <externalId>false</externalId>
+        <label>Style PRE</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Style_TABLE__c</fullName>
+        <description>This field is used to store the default css style for TABLE elements.</description>
+        <externalId>false</externalId>
+        <label>Style TABLE</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Style_TD__c</fullName>
+        <description>This field is used to store the default css style for TD elements.</description>
+        <externalId>false</externalId>
+        <label>Style TD</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Style_TH__c</fullName>
+        <description>This field is used to store the default css style for TH elements.</description>
+        <externalId>false</externalId>
+        <label>Style TH</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Cloudaction Email Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

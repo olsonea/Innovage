@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <links>Getting_Started_Use_Case</links>
+    <links>BMCServiceDesk__Getting_Started_Videos</links>
+    <links>BMCServiceDesk__Getting_Started_Guide</links>
+    <links>BMCServiceDesk__Release_Notes</links>
+    <links>BMCServiceDesk__Upgrade_Guide</links>
+    <links>BMCServiceDesk__Remedyforce_Help</links>
+    <links>BMCServiceDesk__Administrator_s_Guide</links>
+    <links>BMCServiceDesk__User_s_Guide_for_Analysts</links>
+    <links>BMCServiceDesk__User_Guide_for_Self_Service_clients</links>
+    <links>BMCServiceDesk__Remedyforce_Community</links>
+    <links>Contact_Us</links>
+    <pageComponentType>links</pageComponentType>
+</HomePageComponent>
